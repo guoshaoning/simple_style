@@ -1,0 +1,218 @@
+* {
+	padding: 0;
+	margin: 0
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+ul li{
+	list-style-type: none;
+}
+@media (max-width: 1000px) {
+	body {
+		width: 1000px;
+		overflow-x: scroll;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+}
+
+
+/*顶部*/
+
+#navs {
+	background-color: black;
+	width: 100%;
+	/*position: fixed;*/
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+}
+
+#top {
+	margin: 10px 0 5px 0;
+}
+
+#login {
+	color: white;
+	margin-left: 5%;
+}
+
+
+/*banner*/
+#banner {
+	background-image: url(../img/bg1.jpg);
+	width: 100%;
+	height: 450px;
+}
+#banner ul{
+	padding-top: 27%;
+	padding-left: 35%;
+}
+#banner ul li{
+	float: left;
+	margin-right: 60px;
+}
+#banner ul li a{
+	color:#333333;
+	font-size: 3rem;
+	font-weight: 500;
+}
+/*研发*/
+
+#yanfa {
+	margin: 0 5%;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+#yanfa h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.yan {
+	width: 16%;
+	float: left;
+}
+
+.yan h4 {
+	text-align: center;
+}
+
+.yan a {
+	font-weight: bolder;
+}
+
+.yan img {
+	display: block;
+	position: relative;
+	margin: auto;
+	transition: transform 2s;
+}
+
+.yan img:hover {
+	transform: rotateY(360deg);
+}
+/*敏捷*/
+#minjie{
+	background: url(../img/daima.jpg);
+	width:100%;
+	height: 431px;
+	padding:0 10%;
+}
+#minjie h1{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	color: #FFFFFF;
+}
+.min {
+	width: 33%;
+	float: left;
+}
+.min img{
+	display: block;
+	position: relative;
+	margin: auto;
+	border-radius:20px;
+	opacity:1;
+}
+.min img:hover{
+	opacity:0.5;
+}
+.min h3 {
+	text-align: center;
+}
+
+.min a {
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+/*项目管理*/
+#ceshi{
+	margin: 0 10%;
+	overflow: hidden;
+}
+#ceshi h1{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.ce {
+	width: 33%;
+	float: left;
+}
+.ce img{
+	/*border-radius:50%;*/
+	display: block;
+	position: relative;
+	margin: auto;
+	transition: transform 2s;
+}
+.ce img:hover {
+	transform: rotateY(360deg);
+}
+.ce h3 {
+	text-align: center;
+}
+
+.ce a {
+	font-weight: bolder;
+}
+/*持续集成*/
+#chixu{
+	background: url(../img/chi.jpg);
+	width:100%;
+	height: 450px;
+	margin-top: 60px;
+}
+#chixu h1{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 35px;
+	color: #FFFFFF;
+}
+.chi {
+	width: 50%;
+	float: left;
+}
+.chi img{
+	display: block;
+	position: relative;
+	margin: auto;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.chi img:hover{
+	box-shadow: 4px 4px rgba(255, 255, 255, 1);
+}
+.chi h3 {
+	text-align: center;
+}
+
+.chi a {
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+/*footer*/
+#footer{
+	width:100%;
+	height: 100px;
+	background-color:#E8E8E8;
+}
+#footer ul{
+	text-align: center;
+	padding-top: 25px;
+}
+#footer ul li{
+	display: inline;
+}
+#footlogo{
+	text-align: center;
+}
